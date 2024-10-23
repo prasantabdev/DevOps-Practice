@@ -1,30 +1,49 @@
-Basic linux commands
-Listing commands
-ls option_flag arguments --> list the sub directories and files avaiable in the present directory
+# Basic Linux Commands
 
-Examples:
+## Listing Commands
 
-ls -l--> list the files and directories in long list format with extra information
+The `ls` command is used to list the subdirectories and files available in the current directory. Below are some common options and examples:
 
-ls -a --> list all including hidden files and directory
+- **`ls -l`**  
+  Lists files and directories in a long format, displaying additional information.
 
-ls *.sh --> list all the files having .sh extension.
+- **`ls -a`**  
+  Lists all files and directories, including hidden ones (those starting with a dot).
 
-ls -i  --> list the files and directories with index numbers inodes
+- **`ls *.sh`**  
+  Lists all files with the `.sh` extension.
 
- ls -d */ --> list only directories.(we can also specify a pattern)
+- **`ls -i`**  
+  Lists files and directories along with their inode index numbers.
 
-Directoy commands
-pwd --> print work directory. Gives the present working directory.
+- **`ls -d */`**  
+  Lists only directories. You can also specify a pattern.
 
-cd path_to_directory --> change directory to the provided path
+---
 
-cd ~  or just cd  --> change directory to the home directory
+## Directory Commands
 
-cd - --> Go to the last working directory.
+- **`pwd`**  
+  Prints the current working directory, showing your present location in the filesystem.
 
- cd .. --> change directory to one step back.
+- **`cd path_to_directory`**  
+  Changes the current directory to the specified path.
 
- cd ../.. --> Change directory to 2 levels back.
+- **`cd ~`** or simply **`cd`**  
+  Changes the current directory to your home directory.
 
- mkdir  directoryName --> to make a directory in a specific location.
+- **`cd -`**  
+  Switches back to the last working directory.
+
+- **`cd ..`**  
+  Moves one level up in the directory structure.
+
+- **`cd ../..`**  
+  Moves two levels up in the directory structure.
+
+- **`mkdir directoryName`**  
+  Creates a new directory with the specified name in the current location.
+
+---
+
+These commands form the foundation of navigating and managing files in a Linux environment. Happy exploring!
