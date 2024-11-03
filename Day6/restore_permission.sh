@@ -22,7 +22,7 @@ fi
 
 # Function to convert permission string to numeric
 convert_to_numeric() {
-    local perm=$1
+    local perm=$permission
     local owner=0
     local group=0
     local others=0
