@@ -1,0 +1,3 @@
+total 
+-rwx---rwx file1.txt
+-rwx---rwx file2.txt

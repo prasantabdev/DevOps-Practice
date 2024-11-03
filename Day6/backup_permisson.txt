@@ -1,0 +1,3 @@
+total 0
+-rwx---rwx 1 ubuntu ubuntu 0 Nov  3 14:35 file1.txt
+-rwx---rwx 1 ubuntu ubuntu 0 Nov  3 14:35 file2.txt
