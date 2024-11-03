@@ -19,7 +19,6 @@ if [ -z "$permission" ]; then
     exit 1
 fi
 
-#!/bin/bash
 
 # Function to convert permission string to numeric
 convert_to_numeric() {
